@@ -1,13 +1,12 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+title: Custom Drivetrain
+description: High School Robotics
+technologies: [Onshape]
+image: /assets/images/drivetrain.jpg
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Custom Drivetrain
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
+Since my team had previously only built drivetrains with GoBilda channel, I thought it would be interesting in my senior year to create a custom drivetrain that would adapt better to the needs of this year's specific game. This involved designing and CADing plates that would encase the wheels, belts, odometry modules, and motors, which were then CNC-ed out of aluminum and carbon fiber.  This resulted in a drivetrain that was able to better fit our intake system, was able to drive over rail obstacles on the field, and was  narrower so it could navigate better on the field.

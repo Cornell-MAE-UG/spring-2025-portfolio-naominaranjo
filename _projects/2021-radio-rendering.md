@@ -1,25 +1,21 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
+title: AutoBoat Robotic Arm
+description: Robotics and Actuation
 technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/arm.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+Autoboat is one of Cornell's student-led project teams; that designs, manufactures and programs an autonomous boat to navigate an obstacle course as a part of yearly competition. I am a member of the Robotics and Actuation subteam. As part of this subteam, I am working to create a robotic arm that will extended outside our boat to pick and and deposit game elements, this project is still a work in progress and will hopefully be completed by our next competition in Spring 2025.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Strain Wave Gearbox 
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+Our goal is for this arm to be controlled by motors attached to strain wave gearboxes. This is because strain wave gearboxes provide low backlash, a large ratio, and a smaller space claim. This gearboxes would ideally be fully 3d-printed. The main parts of the print are the circular spline which can be seen in blue, the flex spline in red, which has 2 less teeth than the circular spline, and the wave generator in green that drives the flex spline, as well as mounting plates for mounting onto the boat and to the arm segments. This design is still not final and simulations are still being run to verify the flexibility and contact points of the flex spline.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Arm Segments and Connectors
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The next step in designing the arm was to create clamps that would attach to the gearboxes and connect to the cylindrical arm segments. The requirements for the design where that the materials and cross-sectional shapes of the arm segments were feasible, procurable at reasonable cost, and as light and stiff as possible. In order to achieve this we ran deflection tests on arm segments of varying materials and cross sectional sizes, and decided on cylindrical, hollow, carbon fiber tubes for the arms since they had the best balance of low weight and high strength. This cross section lended itself nicely to using clamps, that would attach to both the top face of and the bottom circular spline of the gearboxes, in order to connect the arm segments.
 
-I was inspired by this old radio when I made this rendering:
+Overall Arm Design
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The arm will have a full extension of 3 feet, and be made up of 3 stages, with one stage of the arm looking like the image pictured below. The motor mounts are still under development. 
